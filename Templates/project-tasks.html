@@ -17,12 +17,12 @@
     
     <h3>Add new project</h3>
 
-    <form action="/add/project" method="POST">
+    <form action="/add/task/{{project_id}}" method="POST">
         <div>
-            Project Name: <input type="text" name="project-title">
+            Task: <input type="text" name="task-description">
         </div>
         <br>
-        <input type="submit" value="Add Project">
+        <input type="submit" value="Add Task">
     </form>
 
 </body>
